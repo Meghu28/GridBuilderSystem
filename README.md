@@ -53,7 +53,7 @@ http://localhost:8080/grid/configData
 http://localhost:8080/grid/rowData
 
  # NOTE
-1) node_modules is not in the git repository. It should be installed with npm package.
+The node_modules directory is not included in the Git repository. Please use npm install to install all required dependencies as specified in the package.json file."
  
 
  
