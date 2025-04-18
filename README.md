@@ -48,9 +48,9 @@ Step-4 Open Web Application
 
 http://localhost:8080/
 
-localhost:8080/grid/configData
+http://localhost:8080/grid/configData
 
-localhost:8080/grid/rowData
+http://localhost:8080/grid/rowData
 
  
 
