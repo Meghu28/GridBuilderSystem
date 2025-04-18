@@ -1,0 +1,19 @@
+<div class="grid-container">
+    <h2>Grid Builder System</h2>
+  
+    <table class="custom-grid">
+      <thead>
+        <tr>
+          <th *ngFor="let key of rowsList[0] | keyvalue">{{ key.key | titlecase }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of rowsList">
+            <td *ngFor="let cell of row | keyvalue"
+                [ngStyle]="getMergedStyle(cell.key, cell.value, row.timestamp)">
+                    {{ cell.value }}
+            </td>     
+        </tr>
+      </tbody>
+    </table>
+</div>  

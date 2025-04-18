@@ -1,0 +1,33 @@
+.grid-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .custom-grid {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .custom-grid thead th {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .custom-grid td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* You can also style rows here for extra control */
+  .custom-grid tr:hover {
+    background-color: #f9f9f9;
+  }  
