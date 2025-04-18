@@ -46,7 +46,9 @@ mvn spring-boot:run
 Step-4 Open Web Application
 7)	Please access the web application with following URLs. 
 http://localhost:8080/
+
 localhost:8080/grid/configData
+
 localhost:8080/grid/rowData
 
  
